@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background: #ececec;
+}
+
+.welcome {
+    margin-top: 8px;
+    position: fixed;
+    z-index: 1;
+}
+
+.main {
+    margin-top: 56px;
+}
+
+nav {
+    font-family: 'poppins', sans-serif;
+}
+
+
+
+/* Hide the dropdown by default */
+
+
+
+.marketing {
+    padding: 25px;
+}
+
+.c-item {
+    height: 94vh;
+}
+
+.c-img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.logo {
+    width: 23vh;
+    padding: 0 15px 0 15px;
+}
+/* .pro-drop{
+    margin-left: -5rem 
+    
+} */
+
+/* .nav-link {
+            font-size: medium;
+        } */
+
+.navs{
+        font-size: large;
+        /* color: white; */
+    }
+
+a {
+    text-decoration: none;
+}
+
+.card ion-icon {
+    padding: 3px 3px 0 0;
+    color: grey;
+    font-size: x-large;
+    position: fixed;
+    z-index: 10;
+    left: 90%;
+    right: 0%;
+    transition: 0.2s ease;
+}
+
+.card ion-icon:hover {
+    color: rgb(228, 59, 138);
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 1px 1px 15px rgb(186, 182, 182);
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.card-body {
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+
+.card-title {
+    color: black;
+}
+
+.card-body p {
+    color: #108934;
+    font-size: large;
+}
+
+.adidas {
+    left: 60%;
+    bottom: 70%;
+    right: 0%;
+    font-family: "Montserrat", sans-serif;
+}
+
+.height {
+    height: 95vh;
+}
+
+/* header{
+            position: fixed;
+            z-index: 1;
+        } */
+
+
+/* .c-img1 {
+            height: 50vh;
+            object-fit: cover;
+        } */
